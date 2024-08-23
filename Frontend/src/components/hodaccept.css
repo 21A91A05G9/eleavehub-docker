@@ -1,0 +1,51 @@
+.div{
+    background-color: #01592426;
+    float: left;
+    padding: 10px;
+}
+.main h2{
+    padding: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 0px;
+}
+.maindiv, thead{
+    padding: 10px;
+    background-color: rgb(5, 81, 53);
+    border-radius: 5px;
+}
+
+.hodTR{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #beeada;
+}
+th, .maindiv span{
+    color: white;
+    font-weight: 400 !important;
+}
+
+.details{
+    box-shadow: 1px 1px 8px rgb(184, 184, 184), -1px -1px 8px rgb(184, 184, 184);
+    background-color: #ddf1ea;
+}
+
+@media (min-width:0px) {
+    .details{
+        margin: 15px 0px;
+    }
+    
+    
+}
+@media (min-width:768px) {
+    .details{
+        margin: 2px 0px !important;
+    }
+    
+}
